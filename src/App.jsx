@@ -23,16 +23,26 @@ import "./styles.css";
  *
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
-const siteProps = {
-  name: "Alexandrie Grenier",
-  title: "Web Designer & Content Creator",
-  email: "alex@example.com",
-  gitHub: "microsoft",
-  instagram: "microsoft",
-  linkedIn: "satyanadella",
-  medium: "",
-  twitter: "microsoft",
-  youTube: "Code",
+
+// change name in siteProps object to Rob Gaal
+// Create new siteProps object with my info 
+
+const siteProps = {  
+  name: "Rob Gaal",
+  title: "Web Developer",
+  email: "djrogallo@hotmail.com",
+  phone: "555-555-5555",
+  github: "rogallo",
+  twitter: "",
+  linkedin: "",
+  facebook: "",
+  instagram: "",
+  pinterest: "",
+  address: "123 Main Street, Anytown, USA",
+  url: "https://rogallo.github.io/react-portfolio/",
+  description: "This is my portfolio site.",
+  google_analytics: "UA-000000000-1",
+  google_site_verification: "google1234567890",
 };
 
 const primaryColor = "#4E567E";
