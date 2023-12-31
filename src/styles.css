@@ -2,6 +2,19 @@
 * CSS file to hold styles that apply across the application
 */
 
+/* add an amazing animation to the social icons */
+@keyframes socialIconAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
 
 html,
@@ -123,3 +136,7 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+
+
+
+
