@@ -3,7 +3,12 @@
 */
 
 /* add an amazing animation to the social icons */
-@keyframes socialIconAnimation {
+img.socialIcon:hover {
+  animation: bounce 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
   0% {
     transform: scale(1);
   }
